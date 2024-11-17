@@ -1,0 +1,79 @@
+/* General popup styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 15px;
+    width: 300px;
+    margin: 0;
+}
+
+/* Container for all eco-data information */
+#eco-score-container {
+    text-align: center;
+}
+
+/* Title styling */
+#eco-score-container h2 {
+    font-size: 1.5em;
+    color: #2e8b57; /* A green shade to represent eco-friendliness */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Individual data fields */
+#eco-score-container p {
+    font-size: 1em;
+    color: #333;
+    background: #e8f5e9; /* Light green background for data items */
+    padding: 10px;
+    border-radius: 5px;
+    margin: 8px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Text emphasis */
+#eco-score-container p span {
+    font-weight: bold;
+    color: #2e8b57;
+}
+
+/* Styling for specific labels */
+#eco-labels {
+    background: #f1f8e9; /* Slightly different green shade for variety */
+}
+
+#carbon-rating {
+    background: #e0f7fa; /* Light cyan to differentiate carbon rating */
+}
+
+#epd-status {
+    background: #ffe0b2; /* Light orange for a warm, neutral section */
+}
+
+#good-on-you {
+    background: #fff3e0; /* Light peach for Good On You rating */
+}
+
+/* Button styles */
+button {
+    background-color: #2e8b57;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3a9f6e;
+}
+
+/* Fine-tune spacing and text alignment */
+p {
+    text-align: left;
+    line-height: 1.5;
+}
